@@ -1,0 +1,6 @@
+{
+  "name": "firegame",
+  "short_name": "firegame",
+  "start_url": "/",
+  "display": "standalone"
+}

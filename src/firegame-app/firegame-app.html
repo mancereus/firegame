@@ -1,0 +1,38 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymerfire/firebase-app.html">
+<link rel="import" href="../../bower_components/polymerfire/firebase-auth.html">
+
+<dom-module id="firegame-app">
+  <template>
+    <style>
+       :host {
+        display: block;
+      }
+    </style>
+    <firebase-app name="notes" api-key: "AIzaSyC63EGCsz-T4SsGONbpIg8G8TuLdUZLwPI" auth-domain:
+      "firegame-5a621.firebaseapp.com" database-url: "https://firegame-5a621.firebaseio.com">
+    </firebase-app>
+      <firebase-auth id="auth" user="{{user}}" on-error="handleError">
+      </firebase-auth>
+    <h2>Hello [[user]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'firegame-app',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'firegame-app',
+        },
+      },
+      ready: function () {
+        this.$.auth.signInAnonymously()
+      },
+      handleError: () => console.log("error")
+
+    });
+  </script>
+</dom-module>

@@ -1,0 +1,57 @@
+[debug] [2017-06-25T09:09:31.326Z] ----------------------------------------------------------------------
+[debug] [2017-06-25T09:09:31.328Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\matth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-25T09:09:31.329Z] CLI Version:  3.9.1
+[debug] [2017-06-25T09:09:31.329Z] Platform:     win32
+[debug] [2017-06-25T09:09:31.329Z] Node Version: v6.6.0
+[debug] [2017-06-25T09:09:31.329Z] Time:         Sun Jun 25 2017 11:09:31 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:09:31.329Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-25T09:09:31.345Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-25T09:09:31.345Z] > authorizing via signed-in user
+[debug] [2017-06-25T09:09:31.348Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/firegame-5a621  
+ Sun Jun 25 2017 11:09:31 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:09:32.135Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-25T09:09:32.137Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/firegame-5a621/tokens  
+ Sun Jun 25 2017 11:09:32 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:09:32.766Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\sde\firegame'...
+[info] 
+[debug] [2017-06-25T09:09:32.770Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firegame-5a621  
+ Sun Jun 25 2017 11:09:32 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:09:33.549Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-25T09:09:33.550Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/329647471689/clients/_:getWebAppConfig  
+ Sun Jun 25 2017 11:09:33 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:09:34.097Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-25T09:25:24.882Z] ----------------------------------------------------------------------
+[debug] [2017-06-25T09:25:24.885Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\matth\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-06-25T09:25:24.885Z] CLI Version:  3.9.1
+[debug] [2017-06-25T09:25:24.885Z] Platform:     win32
+[debug] [2017-06-25T09:25:24.885Z] Node Version: v6.6.0
+[debug] [2017-06-25T09:25:24.886Z] Time:         Sun Jun 25 2017 11:25:24 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:25:24.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-25T09:25:24.901Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-25T09:25:24.901Z] > authorizing via signed-in user
+[debug] [2017-06-25T09:25:24.904Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/firegame-5a621  
+ Sun Jun 25 2017 11:25:24 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:25:25.808Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-25T09:25:25.810Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/firegame-5a621/tokens  
+ Sun Jun 25 2017 11:25:25 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:25:26.503Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\sde\firegame'...
+[info] 
+[debug] [2017-06-25T09:25:26.509Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/firegame-5a621  
+ Sun Jun 25 2017 11:25:26 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:25:27.317Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-25T09:25:27.317Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/329647471689/clients/_:getWebAppConfig  
+ Sun Jun 25 2017 11:25:27 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2017-06-25T09:25:27.953Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
